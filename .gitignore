@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Production builds
+frontend/dist/
+
+# Environment variables (contains local IPs & secrets)
+.env
+frontend/.env
+backend/.env
+
+# Android / Capacitor build artifacts
+frontend/android/.gradle/
+frontend/android/app/build/
+frontend/android/build/
+frontend/android/local.properties
+*.apk
+*.aab
+
+# Logs & OS files
+*.log
+.DS_Store
+Thumbs.db

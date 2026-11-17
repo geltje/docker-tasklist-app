@@ -1,0 +1,9 @@
+{
+  "appId": "com.collabtodo.app",
+  "appName": "Group Todo",
+  "webDir": "dist",
+  "server": {
+    "cleartext": true,
+    "androidScheme": "http"
+  }
+}
