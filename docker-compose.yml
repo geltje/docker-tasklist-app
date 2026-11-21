@@ -4,7 +4,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: todo_app
+      MYSQL_DATABASE: tasklist_app
     ports:
       - "3306:3306"
     volumes:
@@ -24,7 +24,7 @@ services:
       DB_HOST: db
       DB_USER: root
       DB_PASSWORD: rootpassword
-      DB_NAME: todo_app
+      DB_NAME: tasklist_app
       JWT_SECRET: super-secret-collab-key-2026
     volumes:
       - ./backend:/app

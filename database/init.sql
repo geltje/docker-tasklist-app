@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS todo_app;
-USE todo_app;
+CREATE DATABASE IF NOT EXISTS tasklist_app;
+USE tasklist_app;
 
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -70,8 +70,8 @@ CREATE TABLE completion_logs (
   FOREIGN KEY (task_id) REFERENCES tasks(id) ON DELETE CASCADE,
   FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
-CREATE DATABASE IF NOT EXISTS todo_app;
-USE todo_app;
+CREATE DATABASE IF NOT EXISTS tasklist_app;
+USE tasklist_app;
 
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,

@@ -1,6 +1,6 @@
 {
-  "appId": "com.collabtodo.app",
-  "appName": "Group Todo",
+  "appId": "com.collabtasklist.app",
+  "appName": "Group tasklist",
   "webDir": "dist",
   "server": {
     "cleartext": true,

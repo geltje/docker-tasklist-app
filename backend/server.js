@@ -19,7 +19,7 @@ const pool = mysql.createPool({
   host: process.env.DB_HOST || 'localhost',
   user: process.env.DB_USER || 'root',
   password: process.env.DB_PASSWORD || 'rootpassword',
-  database: process.env.DB_NAME || 'todo_app',
+  database: process.env.DB_NAME || 'tasklist_app',
   waitForConnections: true,
   connectionLimit: 10
 });
